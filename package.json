@@ -1,0 +1,31 @@
+{
+  "name": "@volkovnd/nuxt-v4-starter",
+  "description": "Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovnd/nuxt-v4-starter.git"
+  },
+  "keywords": [],
+  "author": "Volkov Nikolay <volkovnd@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovnd/nuxt-v4-starter/issues"
+  },
+  "homepage": "https://github.com/volkovnd/nuxt-v4-starter#readme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^4.0.1",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {}
+}
